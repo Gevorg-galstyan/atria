@@ -1,0 +1,378 @@
+
+
+#lean_overlay {
+    position: fixed;
+    z-index: 100;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    background: #000;
+    display: none;
+}
+
+.popupContainer {
+    position: absolute;
+    width: 550px;
+    height: auto;
+    left: 45%;
+    top: 60;
+    background: #FFF;
+}
+.btn {
+    padding: 10px 20px;
+}
+
+.btn_red {
+    background: #ED6347;
+    color: #FFF;
+        width: 100%;
+    padding: 10px 5px;
+}
+
+
+
+.btn_red:hover {
+    background: #C12B05;
+}
+
+a.btn {
+    color: #666;
+    text-align: center;
+    text-decoration: none;
+}
+
+a.btn_red {
+    color: #FFF;
+}
+
+.one_half {
+    width: 45%;
+    display: block;
+    float: left;
+}
+
+.one_half.last {
+   width: 50%;
+    margin-left: 5%;
+    text-transform: uppercase;
+}
+/* Popup Styles*/
+
+.popupHeader {
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.popupHeader {
+    background: #F4F4F2;
+    position: relative;
+    padding: 10px 20px;
+    border-bottom: 1px solid #DDD;
+    font-weight: bold;
+}
+
+.popupHeader .modal_close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 10px 15px;
+    background: #E4E4E2;
+    cursor: pointer;
+    color: #aaa;
+    font-size: 16px;
+}
+
+.popupBody {
+    padding: 20px;
+}
+/* Social Login Form */
+
+.social_login {}
+
+.social_login .social_box {
+    display: block;
+    clear: both;
+    padding: 10px;
+    margin-bottom: 10px;
+    background: #F4F4F2;
+    overflow: hidden;
+}
+
+.social_login .icon {
+    display: block;
+    width: 45px;
+    padding: 5px 10px;
+    margin-right: 10px;
+    float: left;
+    color: #FFF;
+    font-size: 16px;
+    text-align: center;
+}
+
+.social_login .fb .icon {
+    background: #3B5998;
+}
+
+.social_login .google .icon {
+    background: #DD4B39;
+}
+
+.social_login .icon_title {
+    display: block;
+    padding: 5px 0;
+    float: left;
+    font-weight: bold;
+    font-size: 16px;
+    color: #777;
+}
+
+.social_login .social_box:hover {
+    background: #E4E4E2;
+}
+
+.centeredText {
+    text-align: center;
+    margin: 20px 0;
+    clear: both;
+    overflow: hidden;
+    text-transform: uppercase;
+}
+
+.action_btns {
+    clear: both;
+    overflow: hidden;
+}
+
+.action_btns a {
+    display: block;
+}
+/* User Login Form */
+
+.user_login {
+    display: none;
+}
+
+.user_login label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.user_login input[type="text"],
+.user_login input[type="email"],
+.user_login input[type="password"] {
+    display: block;
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #DDD;
+    color: #666;
+}
+
+.user_login input[type="checkbox"] {
+    float: left;
+    margin-right: 5px;
+}
+
+.user_login input[type="checkbox"]+label {
+    float: left;
+}
+
+.user_login .checkbox {
+    margin-bottom: 10px;
+    clear: both;
+    overflow: hidden;
+}
+
+.forgot_password {
+    display: block;
+    margin: 20px 0 10px;
+    clear: both;
+    overflow: hidden;
+    text-decoration: none;
+    color: #ED6347;
+}
+/* User Register Form */
+
+.user_register {
+    display: none;
+}
+
+.user_register label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.user_register input[type="text"],
+.user_register input[type="email"],
+.user_register input[type="password"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #DDD;
+    color: #666;
+}
+.btn_red{
+    text-transform: uppercase;
+}
+.user_register input[type="checkbox"] {
+    float: left;
+    margin-right: 5px;
+}
+
+.user_register input[type="checkbox"]+label {
+    float: left;
+}
+
+.user_register .checkbox {
+    margin-bottom: 10px;
+    clear: both;
+    overflow: hidden;
+}
+.alert_fixed{
+    position: fixed;
+    min-height: 50px;
+    top: 50%;
+    text-align: center;
+    left: 50%;
+    width: 400px;
+    z-index: 9999;
+    transform: translate(-50%,-50%);
+}
+
+.info_modal{
+    position: fixed !important;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 999999;
+    background: rgba(0,0,0, 0.8) !important;
+}
+/*++++++++++++++++++++++++++ My style +++++++++++++++++++++++++++*/
+.btn-edit{
+    z-index: 999;
+}
+.border_radius{
+    border: 1px solid #bd9b8c;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.search_text{padding: 30px 0 !important;  }
+
+.heading_margin{margin: 35px 0px;}
+
+.pad_3{padding: 3px !important;}
+
+
+.divider{
+    display: none;
+}
+.prod_color, .prod_color_active, .cart-color{
+    border: 1px solid #777;
+    border-radius: 5px;
+}
+.prod_color_active{
+    position: absolute;
+    border: 2px solid #777;
+    top: -10px;
+}
+
+.center{
+    width: 150px;
+    margin: 40px auto;
+}
+.quantity-left-minus, .quantity-right-plus {
+    width: 30%;
+    cursor: pointer;
+}
+#quantity{
+    width: 40%;
+}
+.icon-dropdown {
+    min-width: 0px !important;
+}
+.regular .shop-item , .regular_2 .shop-item {
+    position: relative;
+}
+.regular del, .regular small,.regular_2 del, .regular_2 small{
+    display: inline-block;
+}
+.slick-arrow{
+    position:absolute;
+    top: 50%;
+    transform:translate(0,-50%);
+    font-size: 50px;
+   text-align: center;
+    cursor: pointer;
+    width:50px;
+    height: 50px;
+    border-radius: 50%;
+    background:#C3A497;
+    color: #fff;
+}
+.slick-arrow:first-child{
+   left: 0; 
+       z-index: 99;
+}
+.slick-arrow:last-child{
+   right: 0; 
+       z-index: 99;
+}
+.regular_3 .slick-arrow{
+     width:30px;
+    height: 30px;
+        font-size: 30px;
+}
+.regular_3_nav button{
+    display: none !important;
+}
+.regular_3_nav {
+    margin-top: 15px;
+}
+.regular_3_nav .slick-slide{
+    padding: 5px;
+    border:1px solid #C3A497;
+}
+.affix-top{
+    
+    padding: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 1000;
+    top: 0;
+}
+.navbar-brand > img {
+    margin-top: -10px;
+}
+
+.alert-success.alert_fixed.alert-dismissable.fade{
+    padding: 20px 30px;
+    background: #77bfbf;
+    color: #fff;
+}
+.alert-error.alert_fixed.alert-dismissable.fade{
+    padding: 20px 30px;
+    background: #77bfbf;
+    color: #fff;
+}
+.alert-info.alert_fixed.alert-dismissable.fade{
+    padding: 20px 30px;
+    background: #77bfbf;
+    color: #fff;
+}
+.alert-danger.alert_fixed.alert-dismissable.fade{
+    padding: 20px 30px;
+    background: #77bfbf;
+    color: #fff;
+}
+.alert_fixed.alert-dismissable.fade a{
+    color: #333;
+}
+.alert_fixed.alert-dismissable.fade a.close{
+    color: #000;
+    opacity: 1;
+    font-size: 25px;
+}

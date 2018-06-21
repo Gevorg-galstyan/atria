@@ -1,0 +1,111 @@
+
+
+.clear-both{clear:both;}
+
+
+@media (min-width: 768px){
+    .modal-dialog {
+        width: 80% !important;
+        margin: 30px auto;
+    }
+}
+
+
+label.button{
+
+    background-color: #FFFFFF;
+    border: 1px solid #6C6C6C;
+    color: #6C6C6C;
+    padding: 5px 10px;
+    margin: 5px 0;
+    display: inline-block;
+    -webkit-transition: all 200ms linear;
+    -moz-transition: all 200ms linear;
+    -ms-transition: all 200ms linear;
+    -o-transition: all 200ms linear;
+    transition: all 200ms linear;
+}
+
+label.button:hover{
+    background-color:#F0F0F0;
+    cursor: pointer;
+    -webkit-transition: all 200ms linear;
+    -moz-transition: all 200ms linear;
+    -ms-transition: all 200ms linear;
+    -o-transition: all 200ms linear;
+    transition: all 200ms linear;
+}
+
+input#images, input#imagesUp, input#img {display: none;}
+
+
+#multiple-file-preview{border-top: 1px solid rgba(0, 0, 0, 0.11); margin-top: 10px; padding: 10px;}
+
+#sortable, .sort,#sortable1 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    min-height: 100px;
+}
+
+#sortable li,#sortable1 li,  .sort li {
+    margin: 3px 3px 3px 0;
+    float: left;
+    width: 250px;
+    text-align: center;
+    position: relative;
+    background-color: #FFFFFF;
+}
+
+#sortable li, #sortable li img ,#sortable1 li, #sortable1 li img ,#sortableUp li, #sortableUp li img
+{
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+#sortable li div.order-number ,#sortable1 li div.order-number , #sortableUp li div.order-number{
+    position: absolute;
+    top: 2px;
+    right: 10px;
+    width: 16px
+}
+
+#color{
+    width: 25px;
+}
+.checkbox label:after,
+.radio label:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.checkbox .cr,
+.radio .cr {
+    position: relative;
+    display: inline-block;
+    border: 1px solid #a9a9a9;
+    border-radius: .25em;
+    width: 1.3em;
+    height: 1.3em;
+    float: left;
+    margin-right: .5em;
+}
+
+.radio .cr {
+    border-radius: 50%;
+}
+
+.checkbox .cr .cr-icon,
+.radio .cr .cr-icon {
+    position: absolute;
+    font-size: .8em;
+    line-height: 0;
+    top: 50%;
+    left: 20%;
+}
+
+.radio .cr .cr-icon {
+    margin-left: 0.04em;
+}

@@ -1,0 +1,21 @@
+<?php
+return[
+    'profile' => 'My Profile',
+    'settings' => 'Settings',
+    'purchases' => 'My purchases',
+    'logout' => 'Logout',
+    'inbox' => 'Inbox',
+    'personal dannie' => 'Personal information',
+    'change password' => 'Change password',
+    'delete our page' => 'Delete our page',
+    'connectInAdmin' => 'Communication with the administrator',
+    'phone' => 'Phone',
+    'save' => 'Save',
+    'edit' => 'Edit',
+    'updated' => 'Change saved',
+    'old password' => 'Old Password',
+    'new password' => 'New Password',
+    'no right' => 'no right',
+    'delete' => 'Delete',
+    'send' => 'Send',
+];
